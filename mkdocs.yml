@@ -2,54 +2,20 @@ site_name: National 4 Computer Science
 nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
-      - SDD/index.md
-      - Development Methodologies: 'SDD/1.0-Development-Methodologies.md'
-      - Analysis:     
-          - Analysis: 'SDD/2.0-Analysis.md'
-          - Functional Requirements: 'SDD/2.1-Functional-Requirements.md'
-      - Program Design:
-          - Explanation: 'SDD/3.0-Design.md'
-          - Identifying Data Types and Structures: 'SDD/3.1-Identifying-Data-Types-and-Structures.md'
-          - Structure Diagrams: 'SDD/3.2-Structure-Diagrams.md'
-          - Flowcharts: 'SDD/3.3-Flowcharts.md'
-          - Pseudocode: 'SDD/3.4-Pseudocode.md'
-          - Designing a User Interface: 'SDD/3.5-Designing-a-User-Interface.md'
+      - 01-SDD/index.md
+      - Program Design:     
+          - Flowcharts: '01-SDD/1.1-Flowcharts.md'
       - Software Implementation:
-          - Explanation: 'SDD/4.0-Software-Implementation.md'
-          - Input and Output: 'SDD/4.1-Input-and-Output.md'
-          - Variables and Data Types: 'SDD/4.2-Variables-and-Data-Types.md'
-          - Simple Conditional Statements: 'SDD/4.3-Simple-Conditional-Statements.md'
-          - Complex Conditional Statements: 'SDD/4.4-Complex-Conditional-Statements.md'
-          - Fixed Loops (for): 'SDD/4.5-Fixed-Loops-(for).md'
-          - Conditional Loops (while): 'SDD/4.6-Conditional-Loops-(while).md'
-          - Random (Pre-defined Function): 'SDD/4.7-Random.md'
-          - Length (Pre-defined Function): 'SDD/4.8-Length.md'
-          - Round (Pre-defined Function):  'SDD/4.9-Round.md'
-          - Arrays: 'SDD/4.10-Arrays.md'
-          - Traversing a 1-D array (Standard Algorithms):  'SDD/4.11-Traversing-a-1d-Array.md'
-          - Running Total Within a Loop (Standard Algorithms):  'SDD/4.12-Running-Total-Within-a-Loop.md'
-          - Input Validation (Standard Algorithms):  'SDD/4.13-Input-Validation.md'
-      - Testing:
-          - Explanation: 'SDD/5.0-Testing.md'        
-          - Normal, Extreme and Exceptional Test Data: 'SDD/5.1-Normal-Extreme-and-Exceptional-Test-Data.md'
-          - Types of Errors: 'SDD/5.2-Types-of-Errors.md'
+          - Input and Output: '01-SDD/4.1-Input-and-Output.md'
+          - Variables and Data Types: '01-SDD/1.3-Variables-and-Data-Types.md'
+          - Simple Conditional Statements: '01-SDD/1.4-Simple-Conditional-Statements.md'
+          - Fixed Loops (for): '01-SDD/1.5-Fixed-Loops-(for).md'
+          - Conditional Loops (while): '01-SDD/1.6-Conditional-Loops-(while).md'
+      - Testing:      
+          - Normal, Extreme and Exceptional Test Data: '01-SDD/1.8-Normal-Extreme-and-Exceptional-Test-Data.md'
       - Evaluation:
-          - Explanantion: 'SDD/6.0-Evaluation.md'
-          - Fitness for Purpose: 'SDD/6.1-Fitness-for-Purpose.md'
-          - Efficient use of Coding Constructs: 'SDD/6.2-Efficient-use-of-Coding-Constructs.md'
-          - Robustness: 'SDD/6.3-Robustness.md'
-          - Readability: 'SDD/6.4-Readability.md'
-          - Evaluation Summary: 'SDD/6.5-Summary-Evaluation.md'
-    - Unit 2 - Computer Systems:
-      - CS/index.md
-    - Unit 3 - Database Design and Development:
-      - DDD/index.md
-      - Analysis:
-        - End User Requirements: 'DDD/1.1-End-User-Requirements.md'
-        - Functional Requirements: 'DDD/1.2-Functional-Requirements.md'
-        - General Data Protection Regulation: 'DDD/1.3-General-Data-Protection-Regulation.md'
-      - Database Design:
-        - Entities and Attributes: 'DDD/2.1-Entities-and-Attributes.md'
+          - Readability: '01-SDD/6.4-Readability.md'
+
 markdown_extensions:
   - admonition
   - pymdownx.details
